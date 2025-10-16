@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+        background: rgba(26, 29, 31, 1);
+
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    width: 1141px;
+    /* padding:  auto; */
+    text-align: center;
+
+}
+header img{
+    margin: 0 auto;
+    margin-left: 80px;
+}
+img:hover{
+    color: white;
+    cursor: text;
+}
+main{
+    display: flex;  
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer{
+    margin-top: 200px;
+}
